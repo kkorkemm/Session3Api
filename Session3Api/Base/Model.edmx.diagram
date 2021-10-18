@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="75694212a02541aa95af71226b10ef64" Name="Diagram1">
+        <EntityTypeShape EntityType="KazanNeftSession3DBModel.AssetOdometers" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KazanNeftSession3DBModel.Assets" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KazanNeftSession3DBModel.PMScheduleModels" Width="1.5" PointX="6" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KazanNeftSession3DBModel.PMScheduleTypes" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KazanNeftSession3DBModel.PMTasks" Width="1.5" PointX="6" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KazanNeftSession3DBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KazanNeftSession3DBModel.Tasks" Width="1.5" PointX="3.75" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="KazanNeftSession3DBModel.FK_AssetOdometers_Assets" ManuallyRouted="false" />
+        <AssociationConnector Association="KazanNeftSession3DBModel.FK_PMTasks_Assets" ManuallyRouted="false" />
+        <AssociationConnector Association="KazanNeftSession3DBModel.FK_PMScheduleModels_PMScheduleTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="KazanNeftSession3DBModel.FK_PMTasks_PMScheduleTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="KazanNeftSession3DBModel.FK_PMTasks_Tasks" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
