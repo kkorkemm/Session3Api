@@ -199,6 +199,7 @@
     <Compile Include="Base\Tasks.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\AssetOdometersController.cs" />
     <Compile Include="Controllers\AssetsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PMScheduleModelsController.cs" />
